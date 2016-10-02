@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF38EC851DA0EE1A006FBC0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38EC841DA0EE1A006FBC0E /* AppDelegate.swift */; };
+		FF38EC871DA0EE1A006FBC0E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38EC861DA0EE1A006FBC0E /* RootViewController.swift */; };
+		FF38EC891DA0EE1A006FBC0E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38EC881DA0EE1A006FBC0E /* DataViewController.swift */; };
+		FF38EC8B1DA0EE1A006FBC0E /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38EC8A1DA0EE1A006FBC0E /* ModelController.swift */; };
+		FF38EC8E1DA0EE1A006FBC0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF38EC8C1DA0EE1A006FBC0E /* Main.storyboard */; };
+		FF38EC901DA0EE1A006FBC0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF38EC8F1DA0EE1A006FBC0E /* Assets.xcassets */; };
+		FF38EC931DA0EE1A006FBC0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF38EC911DA0EE1A006FBC0E /* LaunchScreen.storyboard */; };
+		FF38EC9E1DA0EE1A006FBC0E /* ScriplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38EC9D1DA0EE1A006FBC0E /* ScriplyTests.swift */; };
+		FF38ECA91DA0EE1A006FBC0E /* ScriplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38ECA81DA0EE1A006FBC0E /* ScriplyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF38EC9A1DA0EE1A006FBC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF38EC791DA0EE19006FBC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF38EC801DA0EE19006FBC0E;
+			remoteInfo = Scriply;
+		};
+		FF38ECA51DA0EE1A006FBC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF38EC791DA0EE19006FBC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF38EC801DA0EE19006FBC0E;
+			remoteInfo = Scriply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF38EC811DA0EE1A006FBC0E /* Scriply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scriply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF38EC841DA0EE1A006FBC0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF38EC861DA0EE1A006FBC0E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FF38EC881DA0EE1A006FBC0E /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FF38EC8A1DA0EE1A006FBC0E /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FF38EC8D1DA0EE1A006FBC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF38EC8F1DA0EE1A006FBC0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF38EC921DA0EE1A006FBC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF38EC941DA0EE1A006FBC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF38EC991DA0EE1A006FBC0E /* ScriplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF38EC9D1DA0EE1A006FBC0E /* ScriplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriplyTests.swift; sourceTree = "<group>"; };
+		FF38EC9F1DA0EE1A006FBC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF38ECA41DA0EE1A006FBC0E /* ScriplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF38ECA81DA0EE1A006FBC0E /* ScriplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriplyUITests.swift; sourceTree = "<group>"; };
+		FF38ECAA1DA0EE1A006FBC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF38EC7E1DA0EE19006FBC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38EC961DA0EE1A006FBC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38ECA11DA0EE1A006FBC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF38EC781DA0EE19006FBC0E = {
+			isa = PBXGroup;
+			children = (
+				FF38EC831DA0EE1A006FBC0E /* Scriply */,
+				FF38EC9C1DA0EE1A006FBC0E /* ScriplyTests */,
+				FF38ECA71DA0EE1A006FBC0E /* ScriplyUITests */,
+				FF38EC821DA0EE1A006FBC0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF38EC821DA0EE1A006FBC0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF38EC811DA0EE1A006FBC0E /* Scriply.app */,
+				FF38EC991DA0EE1A006FBC0E /* ScriplyTests.xctest */,
+				FF38ECA41DA0EE1A006FBC0E /* ScriplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF38EC831DA0EE1A006FBC0E /* Scriply */ = {
+			isa = PBXGroup;
+			children = (
+				FF38EC841DA0EE1A006FBC0E /* AppDelegate.swift */,
+				FF38EC861DA0EE1A006FBC0E /* RootViewController.swift */,
+				FF38EC881DA0EE1A006FBC0E /* DataViewController.swift */,
+				FF38EC8A1DA0EE1A006FBC0E /* ModelController.swift */,
+				FF38EC8C1DA0EE1A006FBC0E /* Main.storyboard */,
+				FF38EC8F1DA0EE1A006FBC0E /* Assets.xcassets */,
+				FF38EC911DA0EE1A006FBC0E /* LaunchScreen.storyboard */,
+				FF38EC941DA0EE1A006FBC0E /* Info.plist */,
+			);
+			path = Scriply;
+			sourceTree = "<group>";
+		};
+		FF38EC9C1DA0EE1A006FBC0E /* ScriplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF38EC9D1DA0EE1A006FBC0E /* ScriplyTests.swift */,
+				FF38EC9F1DA0EE1A006FBC0E /* Info.plist */,
+			);
+			path = ScriplyTests;
+			sourceTree = "<group>";
+		};
+		FF38ECA71DA0EE1A006FBC0E /* ScriplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF38ECA81DA0EE1A006FBC0E /* ScriplyUITests.swift */,
+				FF38ECAA1DA0EE1A006FBC0E /* Info.plist */,
+			);
+			path = ScriplyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF38EC801DA0EE19006FBC0E /* Scriply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF38ECAD1DA0EE1A006FBC0E /* Build configuration list for PBXNativeTarget "Scriply" */;
+			buildPhases = (
+				FF38EC7D1DA0EE19006FBC0E /* Sources */,
+				FF38EC7E1DA0EE19006FBC0E /* Frameworks */,
+				FF38EC7F1DA0EE19006FBC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scriply;
+			productName = Scriply;
+			productReference = FF38EC811DA0EE1A006FBC0E /* Scriply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF38EC981DA0EE1A006FBC0E /* ScriplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF38ECB01DA0EE1A006FBC0E /* Build configuration list for PBXNativeTarget "ScriplyTests" */;
+			buildPhases = (
+				FF38EC951DA0EE1A006FBC0E /* Sources */,
+				FF38EC961DA0EE1A006FBC0E /* Frameworks */,
+				FF38EC971DA0EE1A006FBC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF38EC9B1DA0EE1A006FBC0E /* PBXTargetDependency */,
+			);
+			name = ScriplyTests;
+			productName = ScriplyTests;
+			productReference = FF38EC991DA0EE1A006FBC0E /* ScriplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF38ECA31DA0EE1A006FBC0E /* ScriplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF38ECB31DA0EE1A006FBC0E /* Build configuration list for PBXNativeTarget "ScriplyUITests" */;
+			buildPhases = (
+				FF38ECA01DA0EE1A006FBC0E /* Sources */,
+				FF38ECA11DA0EE1A006FBC0E /* Frameworks */,
+				FF38ECA21DA0EE1A006FBC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF38ECA61DA0EE1A006FBC0E /* PBXTargetDependency */,
+			);
+			name = ScriplyUITests;
+			productName = ScriplyUITests;
+			productReference = FF38ECA41DA0EE1A006FBC0E /* ScriplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF38EC791DA0EE19006FBC0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Hoaithi;
+				TargetAttributes = {
+					FF38EC801DA0EE19006FBC0E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FF38EC981DA0EE1A006FBC0E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF38EC801DA0EE19006FBC0E;
+					};
+					FF38ECA31DA0EE1A006FBC0E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF38EC801DA0EE19006FBC0E;
+					};
+				};
+			};
+			buildConfigurationList = FF38EC7C1DA0EE19006FBC0E /* Build configuration list for PBXProject "Scriply" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF38EC781DA0EE19006FBC0E;
+			productRefGroup = FF38EC821DA0EE1A006FBC0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF38EC801DA0EE19006FBC0E /* Scriply */,
+				FF38EC981DA0EE1A006FBC0E /* ScriplyTests */,
+				FF38ECA31DA0EE1A006FBC0E /* ScriplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF38EC7F1DA0EE19006FBC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38EC931DA0EE1A006FBC0E /* LaunchScreen.storyboard in Resources */,
+				FF38EC901DA0EE1A006FBC0E /* Assets.xcassets in Resources */,
+				FF38EC8E1DA0EE1A006FBC0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38EC971DA0EE1A006FBC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38ECA21DA0EE1A006FBC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF38EC7D1DA0EE19006FBC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38EC871DA0EE1A006FBC0E /* RootViewController.swift in Sources */,
+				FF38EC8B1DA0EE1A006FBC0E /* ModelController.swift in Sources */,
+				FF38EC891DA0EE1A006FBC0E /* DataViewController.swift in Sources */,
+				FF38EC851DA0EE1A006FBC0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38EC951DA0EE1A006FBC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38EC9E1DA0EE1A006FBC0E /* ScriplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38ECA01DA0EE1A006FBC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38ECA91DA0EE1A006FBC0E /* ScriplyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF38EC9B1DA0EE1A006FBC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF38EC801DA0EE19006FBC0E /* Scriply */;
+			targetProxy = FF38EC9A1DA0EE1A006FBC0E /* PBXContainerItemProxy */;
+		};
+		FF38ECA61DA0EE1A006FBC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF38EC801DA0EE19006FBC0E /* Scriply */;
+			targetProxy = FF38ECA51DA0EE1A006FBC0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF38EC8C1DA0EE1A006FBC0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF38EC8D1DA0EE1A006FBC0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF38EC911DA0EE1A006FBC0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF38EC921DA0EE1A006FBC0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF38ECAB1DA0EE1A006FBC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF38ECAC1DA0EE1A006FBC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF38ECAE1DA0EE1A006FBC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scriply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdhack.Scriply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF38ECAF1DA0EE1A006FBC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scriply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdhack.Scriply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF38ECB11DA0EE1A006FBC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScriplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdhack.ScriplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scriply.app/Scriply";
+			};
+			name = Debug;
+		};
+		FF38ECB21DA0EE1A006FBC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScriplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdhack.ScriplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scriply.app/Scriply";
+			};
+			name = Release;
+		};
+		FF38ECB41DA0EE1A006FBC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ScriplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdhack.ScriplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Scriply;
+			};
+			name = Debug;
+		};
+		FF38ECB51DA0EE1A006FBC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ScriplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdhack.ScriplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Scriply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF38EC7C1DA0EE19006FBC0E /* Build configuration list for PBXProject "Scriply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF38ECAB1DA0EE1A006FBC0E /* Debug */,
+				FF38ECAC1DA0EE1A006FBC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF38ECAD1DA0EE1A006FBC0E /* Build configuration list for PBXNativeTarget "Scriply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF38ECAE1DA0EE1A006FBC0E /* Debug */,
+				FF38ECAF1DA0EE1A006FBC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF38ECB01DA0EE1A006FBC0E /* Build configuration list for PBXNativeTarget "ScriplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF38ECB11DA0EE1A006FBC0E /* Debug */,
+				FF38ECB21DA0EE1A006FBC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF38ECB31DA0EE1A006FBC0E /* Build configuration list for PBXNativeTarget "ScriplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF38ECB41DA0EE1A006FBC0E /* Debug */,
+				FF38ECB51DA0EE1A006FBC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF38EC791DA0EE19006FBC0E /* Project object */;
+}
